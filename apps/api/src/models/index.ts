@@ -12,6 +12,7 @@ const connect = (): Promise<typeof mongoose> =>
     useUnifiedTopology: true,
   })
 
+// LOAD MODELS
 const models = Object.create({})
 
 readdirSync(__dirname)
